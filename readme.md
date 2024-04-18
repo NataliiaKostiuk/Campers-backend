@@ -5,3 +5,6 @@
 - `npm run lint` &mdash; запустити виконання перевірки коду з eslint, необхідно виконувати перед кожним PR та виправляти всі помилки лінтера
 - `npm lint:fix` &mdash; та ж перевірка лінтера, але з автоматичними виправленнями простих помилок
   render:   https://campers-backend-ibr1.onrender.com
+campersRouter.get('/');
+campersRouter.get('/:id');
+campersRouter.patch('/:id/favorite');
